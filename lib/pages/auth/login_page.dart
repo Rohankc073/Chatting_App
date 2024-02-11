@@ -1,4 +1,3 @@
-
 import 'package:chatme/pages/auth/register_page.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
@@ -43,17 +42,23 @@ class _LoginPageState extends State<LoginPage> {
                       crossAxisAlignment: CrossAxisAlignment.center,
                       children: <Widget>[
                         const Text(
-                          "YapYap",
+                          "Tap Tap",
                           style: TextStyle(
-                              fontSize: 40, fontWeight: FontWeight.bold, color: Color(0xFF2C7CEF)),
+                              fontSize: 40,
+                              fontWeight: FontWeight.bold,
+                              color: Color(0xFF2C7CEF)),
                         ),
                         const SizedBox(height: 10),
                         const Text("Login and Interact",
                             style: TextStyle(
                                 fontSize: 18, fontWeight: FontWeight.w500)),
-                        SizedBox(height: 10,),
+                        const SizedBox(
+                          height: 10,
+                        ),
                         Image.asset("assets/log.jpg"),
-                        SizedBox(height: 10,),
+                        const SizedBox(
+                          height: 10,
+                        ),
                         TextFormField(
                           decoration: InputDecoration(
                               labelText: "Email",
@@ -87,7 +92,6 @@ class _LoginPageState extends State<LoginPage> {
                               border: OutlineInputBorder(
                                 borderRadius: BorderRadius.circular(20),
                               ),
-
                               prefixIcon: Icon(
                                 Icons.lock,
                                 color: Theme.of(context).primaryColor,
@@ -114,9 +118,7 @@ class _LoginPageState extends State<LoginPage> {
                             style: ElevatedButton.styleFrom(
                                 primary: Theme.of(context).primaryColor,
                                 elevation: 7,
-
                                 shape: RoundedRectangleBorder(
-
                                     borderRadius: BorderRadius.circular(10))),
                             child: const Text(
                               "Sign In",

@@ -75,8 +75,8 @@ class _ChatPageState extends State<ChatPage> {
 
           Container(
 
-                decoration: new BoxDecoration(
-            image: new DecorationImage(image: new AssetImage("assets/wall.jpg"), fit: BoxFit.cover,),
+                decoration: BoxDecoration(
+            image: DecorationImage(image: new AssetImage("assets/wall.jpg"), fit: BoxFit.cover,),
 
                 ),
 
