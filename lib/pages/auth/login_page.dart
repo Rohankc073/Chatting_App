@@ -49,7 +49,7 @@ class _LoginPageState extends State<LoginPage> {
                               color: Color(0xFF1DE181)),
                         ),
                         const SizedBox(height: 10),
-                        const Text("Login and Interact",
+                        const Text("Login to interact with people ",
                             style: TextStyle(
                                 fontSize: 18, fontWeight: FontWeight.w500)),
                         const SizedBox(
