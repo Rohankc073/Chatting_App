@@ -46,7 +46,7 @@ class _LoginPageState extends State<LoginPage> {
                           style: TextStyle(
                               fontSize: 40,
                               fontWeight: FontWeight.bold,
-                              color: Color(0xFF2C7CEF)),
+                              color: Color(0xFF1DE181)),
                         ),
                         const SizedBox(height: 10),
                         const Text("Login and Interact",
@@ -141,7 +141,7 @@ class _LoginPageState extends State<LoginPage> {
                             TextSpan(
                                 text: "Register here",
                                 style: const TextStyle(
-                                    color: Color(0xFF2C7CEF),
+                                    color: Color(0xFF1DE181),
                                     fontWeight: FontWeight.w500,
                                     fontSize: 16,
                                     decoration: TextDecoration.underline),

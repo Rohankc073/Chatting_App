@@ -40,7 +40,7 @@ class _RegisterPageState extends State<RegisterPage> {
                         const Text(
                           "Tap Tap",
                           style: TextStyle(
-                              fontSize: 40, fontWeight: FontWeight.bold, color: Color(0xFF2C7CEF)),
+                              fontSize: 40, fontWeight: FontWeight.bold, color: Color(0xFF1DE181)),
                         ),
                         const SizedBox(height: 10),
                         const Text(
@@ -156,7 +156,7 @@ class _RegisterPageState extends State<RegisterPage> {
                             TextSpan(
                                 text: "SignIn",
                                 style: const TextStyle(
-                                    color: Color(0xFF2C7CEF),
+                                    color: Color(0xFF1DE181),
                                     decoration: TextDecoration.underline, fontWeight: FontWeight.w500, fontSize: 15),
                                 recognizer: TapGestureRecognizer()
                                   ..onTap = () {

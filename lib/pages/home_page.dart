@@ -92,7 +92,7 @@ class _HomePageState extends State<HomePage> {
           const Icon(
             Icons.account_circle,
             size: 140,
-            color: Color(0xFF2C7CEF),
+            color: Color(0xFF1DE181),
           ),
           const SizedBox(
             height: 15,
