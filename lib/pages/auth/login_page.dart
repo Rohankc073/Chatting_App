@@ -55,7 +55,7 @@ class _LoginPageState extends State<LoginPage> {
                         const SizedBox(
                           height: 10,
                         ),
-                        Image.asset("assets/log.jpg"),
+                        Image.asset("assets/undraw_Chat_re_re1u.png"),
                         const SizedBox(
                           height: 10,
                         ),

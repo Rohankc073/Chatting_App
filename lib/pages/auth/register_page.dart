@@ -47,7 +47,7 @@ class _RegisterPageState extends State<RegisterPage> {
                             "Create your account and start the conversation!",
                             style: TextStyle(
                                 fontSize: 16, fontWeight: FontWeight.w400)),
-                        Image.asset("assets/sign.jpg"),
+                        Image.asset("assets/undraw_Chatting_re_j55r.png"),
                         TextFormField(
                           decoration: InputDecoration(
                               labelText: "Full Name",
